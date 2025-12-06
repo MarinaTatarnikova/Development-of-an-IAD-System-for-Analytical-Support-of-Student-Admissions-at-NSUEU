@@ -10,7 +10,7 @@ tables = [
     'faculties', 'education_levels', 'competition_types',
     'study_forms', 'application_sources', 'application_statuses',
     'application_periods', 'programs', 'entrants',
-    'education_documents', 'applications'
+    'education_documents', 'applications', 'application_choices'
 ]
 
 print("Количество записей в таблицах:")
