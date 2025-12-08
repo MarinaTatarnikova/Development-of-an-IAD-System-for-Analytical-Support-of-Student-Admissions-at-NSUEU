@@ -8,7 +8,7 @@ from kneed import KneeLocator
 
 # Подключение к базе
 engine = create_engine(
-    'mssql+pyodbc://localhost\\SQLEXPRESS/PriemnayaKampaniyaa_NGUEU?' +
+    'mssql+pyodbc://localhost\\SQLEXPRESS/PriemnayaKampaniya_NGUEU?' +
     'driver=ODBC+Driver+17+for+SQL+Server&trusted_connection=yes'
 )
 conn = engine.connect()

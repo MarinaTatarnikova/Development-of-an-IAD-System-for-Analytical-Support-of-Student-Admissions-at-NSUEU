@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 # 1. Подключение к базе
 engine = create_engine(
-    'mssql+pyodbc://localhost\\SQLEXPRESS/PriemnayaKampaniyaa_NGUEU?' +
+    'mssql+pyodbc://localhost\\SQLEXPRESS/PriemnayaKampaniya_NGUEU?' +
     'driver=ODBC+Driver+17+for+SQL+Server&trusted_connection=yes'
 )
 
